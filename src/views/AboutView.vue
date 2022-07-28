@@ -3,15 +3,16 @@
 <template>
   <div class="about">
     <h1>This is an about page</h1>
+    <Card></Card>
   </div>
 </template>
-<Card></Card>
+
 <script>
-import Card from "@/components/Card.vue";
+import Card from '@/components/Card.vue'
 export default {
   components: {
-    Card,
-  },
-};
+    Card
+  }
+}
 // eslint-disable-next-line eol-last
 </script>
